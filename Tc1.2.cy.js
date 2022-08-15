@@ -1,7 +1,7 @@
 ///<reference types = 'cypress'/>
 require('cypress-xpath')
 
-describe('Tc#1.2 Check integration with products list elements at react e-commerce webapp',()=>{
+describe('Tc#1.2 Components integration, "products list" with "size"elements at react e-commerce webapp',()=>{
     before(()=>{
         cy.visit('/')
         cy.url().as('baseUrl')
