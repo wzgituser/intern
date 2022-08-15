@@ -6,7 +6,7 @@ describe('Tc#1.1 validation of the "Sizes" component behavior',()=>{
         cy.visit('/')
         cy.url().as('currentUrl')
     })
-    it('"Sizes:"coponent" validation',()=>{
+    it('"Sizes:"component" validation',()=>{
         cy.get('@currentUrl').then(currentUrl =>{
             cy.url().then(url =>{
                 expect(url).to.eql(currentUrl)
